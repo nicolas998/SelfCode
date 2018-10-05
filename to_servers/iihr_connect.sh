@@ -19,7 +19,7 @@ elif (("$1" == 65))
 then
 	ssh nicolas@s-iihr65.iihr.uiowa.edu
 
-elif [[ "$1" == "HPC" ]]
+elif [[ "$1" == "HPC" ]] || [[ "$1" == "hpc" ]]
 then
 	ssh nicolas@argon.hpc.uiowa.edu
 fi
